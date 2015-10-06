@@ -13,6 +13,8 @@ public class SubarraySumII {
 		// TODO Auto-generated method stub
 		int[] A = {8,-1,-1,-1,-1,4,5};
 		System.out.println(new SubarraySumII().continuousSubarraySumII(A));
+		StringBuilder sb = new StringBuilder();
+		
 	}
     public ArrayList<Integer> continuousSubarraySumII(int[] A) {
         ArrayList<Integer> res = new ArrayList<Integer>();
